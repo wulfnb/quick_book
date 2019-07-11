@@ -9,3 +9,7 @@
 
 #### Move a table from a database to another
 > ALTER TABLE my_old_db.mytable RENAME my_new_db.mytable
+
+
+#### 
+CREATE INDEX emp_class ON employee(class_id);
