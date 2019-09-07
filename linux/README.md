@@ -17,3 +17,7 @@
 >sudo apt-get install smartmontools
 
 >sudo smartctl -x /dev/sdY #Replace "Y" appropriately for your system
+
+### Disabling the recovery
+/etc/default/grub
+GRUB_DISABLE_RECOVERY=true
