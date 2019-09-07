@@ -20,4 +20,5 @@
 
 ### Disabling the recovery
 /etc/default/grub
-GRUB_DISABLE_RECOVERY=true
+GRUB_DISABLE_RECOVERY="true"
+GRUB_DISABLE_SUBMENU=y
