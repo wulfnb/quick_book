@@ -12,4 +12,9 @@
 
 
 #### 
-CREATE INDEX emp_class ON employee(class_id);
+SHOW INDEX FROM <table_name>;
+
+
+CREATE INDEX <to_table> ON <on_table>(<on_field>);
+
+DROP INDEX <index_name> ON <table_name>;
