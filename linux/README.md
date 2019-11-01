@@ -22,3 +22,9 @@
 /etc/default/grub
 GRUB_DISABLE_RECOVERY="true"
 GRUB_DISABLE_SUBMENU=y
+
+#### list all the partitions
+sudo fdisk -l
+
+#### zerofill the drive
+sudo shred -n 2 -z -v /dev/sda1
