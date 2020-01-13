@@ -28,3 +28,7 @@ sudo fdisk -l
 
 #### zerofill the drive
 sudo shred -n 2 -z -v /dev/sda1
+
+
+#### Create ssh key
+ssh-keygen -t rsa -b 4096 -C "mail@gmail.com"
