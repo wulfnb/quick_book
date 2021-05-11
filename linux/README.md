@@ -32,3 +32,12 @@ sudo shred -n 2 -z -v /dev/sda1
 
 #### Create ssh key
 ssh-keygen -t rsa -b 4096 -C "mail@gmail.com"
+
+
+#### Rename .vm extension to .html
+```for name in *.vm
+do
+    newname="$(echo "$name" | cut -f 1 -d '.')".html
+    mv "$name" "$newname"
+done
+```
