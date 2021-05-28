@@ -41,3 +41,8 @@ do
     mv "$name" "$newname"
 done
 ```
+
+#### Find which folder is using high disk usage in linux
+```
+du -h / 2>/dev/null | grep '[0-9\.]\+G'
+```
